@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.UI", "UMS.UI\UMS.UI.csproj", "{DCA0DCF0-2780-4316-AB8C-967ACB46F248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.API", "UMS.API\UMS.API.csproj", "{7503D7B4-9063-4163-B93B-714A401A1BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.Shared", "UMS.Shared\UMS.Shared.csproj", "{F8BDA9AB-DC49-4FA9-A682-F1722AB477AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA0DCF0-2780-4316-AB8C-967ACB46F248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA0DCF0-2780-4316-AB8C-967ACB46F248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA0DCF0-2780-4316-AB8C-967ACB46F248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA0DCF0-2780-4316-AB8C-967ACB46F248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7503D7B4-9063-4163-B93B-714A401A1BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7503D7B4-9063-4163-B93B-714A401A1BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7503D7B4-9063-4163-B93B-714A401A1BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7503D7B4-9063-4163-B93B-714A401A1BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BDA9AB-DC49-4FA9-A682-F1722AB477AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BDA9AB-DC49-4FA9-A682-F1722AB477AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BDA9AB-DC49-4FA9-A682-F1722AB477AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BDA9AB-DC49-4FA9-A682-F1722AB477AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40C2F040-3541-42AE-B11A-60A4EFB5CD61}
+	EndGlobalSection
+EndGlobal

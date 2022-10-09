@@ -1,0 +1,29 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nextro Able Bootstrap 4 Admin Template</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="Phoenixcoded" />
+	<!-- Favicon icon -->
+	<link rel="icon"  rel="stylesheet"  href="~/assets/images/favicon.svg" type="image/x-icon">
+	@{await Html.RenderPartialAsync("_StyleSheetPartial.cshtml");}
+</head>
+<body>
+<!-- [ auth-signup ] start -->
+<div class="auth-wrapper auth-v3">
+	@RenderBody();
+</div>
+<!-- [ auth-signup ] end -->
+<!-- Required Js -->
+@{await Html.RenderPartialAsync("_RequiredScriptPartial.cshtml");}
+<!--Required Js -->
+ @{ await Html.RenderPartialAsync("_Settings.cshtml");}
+ <!-- Sidebar Settings Js -->
+<script src="~/assets/js/site.js"></script>
+</body>
+</html>
